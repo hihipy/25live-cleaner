@@ -1,4 +1,4 @@
-# 25Live Cleaner
+# 25live-cleaner
 
 A Python utility that transforms raw 25Live Excel exports into clean, analysis-ready data. Handles fragmented events, inconsistent formatting, and duplicate rows automatically.
 
@@ -75,7 +75,7 @@ If you don't already have it, install **Python 3.10** or newer from the official
    With your virtual environment active, run the script from your terminal:
 
    ```bash
-   python 25live_cleaner.py
+   python cleaner_25live.py
    ```
 
 3. **Select Your Input File(s):**
