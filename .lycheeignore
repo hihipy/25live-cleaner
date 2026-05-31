@@ -1,9 +1,12 @@
-# One regex per line for URLs lychee should skip.
-# Docs: https://lychee.cli.rs/usage/ignoring-links/
+# Patterns of URLs lychee should skip during link checks.
+# One regex per line. Lines starting with # are ignored.
 
-# LinkedIn returns HTTP 999 to automated checkers
-linkedin\.com
+# Internal UM platform, behind auth. Not reachable from CI.
+^https://insight\.openclinica\.com/
 
-# Local and placeholder URLs
-^https?://localhost
+# Repo's own deep links — checking them at push time creates noise
+# when the script files are renamed in the same commit.
+^https://github\.com/hihipy/sql-x-ray/
+
+# Example links in code blocks (the dump's "generated_at" timestamp etc).
 example\.com
