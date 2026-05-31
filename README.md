@@ -1,5 +1,15 @@
 # 25live-cleaner
 
+[![Link Check](https://github.com/hihipy/25live-cleaner/actions/workflows/links.yml/badge.svg)](https://github.com/hihipy/25live-cleaner/actions/workflows/links.yml)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Built with**
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org)
+[![openpyxl](https://img.shields.io/badge/openpyxl-2E7D32?style=flat&logoColor=white)](https://openpyxl.readthedocs.io)
+
 A Python utility that transforms raw 25Live Excel exports into clean, analysis-ready data. Handles fragmented events, inconsistent formatting, and duplicate rows automatically.
 
 ------
